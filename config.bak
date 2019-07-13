@@ -1,0 +1,4 @@
+Host github.com *.github.com
+   ProxyCommand connect-proxy -S 127.0.0.1:2333 %h %p   #设置代理
+   IdentityFile ~/.ssh/id_rsa
+   User yanlei2017
